@@ -1,0 +1,14 @@
+app:
+  port: 8000
+  secret : 'thisisrealsecret'
+db:
+  host: "pgsql-server"
+  user: "admin"
+  password: "secret"
+  dbname: "account_pg_db"
+  port: 5432
+  sslmode: disable 
+  timezone: "Asia/Bangkok"
+
+login:
+  maxattemptcount: 7
